@@ -172,24 +172,33 @@ h2 {
     justify-content: space-around;
 }
 
-.redesSoc, .formularioContacto {
+.redesSoc,
+.formularioContacto {
     background-color: rgba(250, 235, 215, 0);
     padding: 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-#contacto{
-    background-color: rgb(147, 226, 236);
+#textoRedes {
+    width: 100%;
+    text-align: justify;
+    font-size: 2em;
 }
 
-.iconoRedSocial, .imagenIconoFoot{
+.iconoRedSocial,
+.imagenIconoFoot {
     width: 50px;
 }
 
-.redesSociales{
+.redesSociales {
     padding-top: 5%;
     padding-bottom: 0%;
 }
-.redSocial{
+
+.redSocial {
     padding-left: 3%;
     padding-bottom: 5px;
     display: flex;
@@ -198,19 +207,52 @@ h2 {
     color: black;
 }
 
-.enlaceContacto{
+.enlaceContacto {
     padding-left: 3%;
     text-decoration: none;
-    color: black;  
+    color: black;
 }
 
-.formularioContacto{
+/*.formularioContacto{
     padding-top: 5%;
     width: 100%; 
     background-color: rgb(255, 254, 192);
+}*/
+
+.formulario {
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
+    align-items: left;
 }
 
-.iconosFooter{
+#nombre,
+#apellido,
+#correo-e {
+    text-align: left;
+    width: 400px;
+    height: 32px;
+    border-radius: 15px;
+    padding-left: 5px;
+}
+
+.contacto {
+    background-color: rgb(147, 226, 236);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#mensaje {
+    width: 400px;
+    height: 80px;
+    border-radius: 15px;
+    padding-left: 5px;
+}
+
+.iconosFooter {
     padding: 1% 30%;
     display: flex;
     flex-direction: row;
@@ -218,8 +260,93 @@ h2 {
 
 }
 
-.firma{
+.firma {
     font-size: 2em;
     text-align: center;
     padding-bottom: 5%;
+}
+
+@media (max-width:500px) {
+    .barraNav {
+        display: none;
+    }
+
+    .contacto {
+        flex-direction: column;
+    }
+
+    .textoEstandar {
+        font-size: 2em;
+    }
+
+      .textoPresentacion {
+        align-items: center;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 3em;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 4em;
+        font-weight: bolder;
+    }
+
+    .presentacion {
+        width: 100vw;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .textoPresentacion {
+        padding: 0;
+    }
+
+    .redesSoc,
+    .formularioContacto {
+        background-color: rgba(250, 235, 215, 0);
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .enlaceContacto {
+        font-size: 1.5em;
+    }
+
+    section {
+        width: 100%;
+        padding: 15px 0px 15px;
+    }
+
+    #textoRedes {
+        text-align: center;
+    }
+
+    #nombre,
+    #apellido,
+    #correo-e,
+    #mensaje {
+
+        width: 300px;
+
+    }
+
+    #miImagen {
+        width: 100vw;
+    }
+
+    .contenedorConocimientos,
+    .contenedorProyectos {
+        padding: 0;
+    }
+
 }
