@@ -16,7 +16,7 @@
                 <p class="textoEstandar" id="textoBienvenida">Bienvenidos! Mi nombre es</p>
                 <h1>Guadalupe Fernandez</h1>
                 <p class="textoEstandar">Ingeniera, Desarrolladora, Ilustradora</p>
-                <p class="boton"><a class="boton" href="#proyectos">LO QUE HAGO</a></p>
+                <p class="boton" id="boton"><a class="boton" href="#proyectos">LO QUE HAGO</a></p>
             </div>
         </div>
     </header>
@@ -67,37 +67,55 @@
             laboriosam quis id. Nisi quam est doloremque molestias. Accusantium voluptatem recusandae similique dolores
             labore omnis rerum!</p>
         <div class="contenedorProyectos">
-            <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/Prtfolio.PNG" alt="imagen laboral 1">
-                <p>PORTFOLIO</p>
-            </div>
-            <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/meme.png" alt="imagen laboral 2">
-                <p>GENERADOR DE MEMES</p>
-            </div>
-            <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/arcade.PNG" alt="imagen laboral 3">
-                <p>MATCH 3</p>
-            </div>
-            <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/wallet.png" alt="imagen laboral 4">
-                <p>CONTROLADOR DE GASTOS</p>
-            </div>
-            <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/meeting.jpg" alt="imagen laboral 5">
-                <p>ADMINISTRADOR DE REUNIONES</p>
-            </div>
-            <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/todo.png" alt="imagen laboral 6">
-                <p>TODO APP</p>
-            </div>
-            <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/movie.jpg" alt="imagen laboral 7">
-                <p>BUSCADOR DE PELICULAS</p>
-            </div>
-            <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/Rick-and-Morty.jpg"
-                    alt="imagen laboral 8">
-                <p>API RICK & MORTY</p>
-            </div>
+            <a class="enlaceProyecto" href="#">
+                <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/Prtfolio.PNG"
+                        alt="imagen laboral 1">
+                    <p>PORTFOLIO</p>
+                </div>
+            </a>
+            <a class="enlaceProyecto" href="#">
+                <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/meme.png" alt="imagen laboral 2">
+                    <p>GENERADOR DE MEMES</p>
+                </div>
+            </a>
+            <a class="enlaceProyecto" href="#">
+                <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/arcade.PNG" alt="imagen laboral 3">
+                    <p>MATCH 3</p>
+                </div>
+            </a>
+            <a class="enlaceProyecto" href="#">
+                <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/wallet.png" alt="imagen laboral 4">
+                    <p>CONTROLADOR DE GASTOS</p>
+                </div>
+            </a>
+            <a class="enlaceProyecto" href="#">
+                <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/meeting.jpg" alt="imagen laboral 5">
+                    <p>ADMINISTRADOR DE REUNIONES</p>
+                </div>
+            </a>
+            <a class="enlaceProyecto" href="#">
+                <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/todo.png" alt="imagen laboral 6">
+                    <p>TODO APP</p>
+                </div>
+            </a>
+            <a class="enlaceProyecto" href="#">
+                <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/movie.jpg" alt="imagen laboral 7">
+                    <p>BUSCADOR DE PELICULAS</p>
+                </div>
+            </a>
+            <a class="enlaceProyecto" href="#">
+                <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/Rick-and-Morty.jpg"
+                        alt="imagen laboral 8">
+                    <p>API RICK & MORTY</p>
+            </a>
+        </div>
         </div>
     </section>
     <section class="contacto" id="contacto">
         <section class="redesSoc">
             <h2>Contactame</h2>
-            <p class="textoEstandar" id="textoRedes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eum placeat maiores
+            <p class="textoEstandar" id="textoRedes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eum
+                placeat maiores
                 at commodi. Inventore
                 aut
             </p>
@@ -117,26 +135,27 @@
             <h2>Escribime</h2>
             <form class="formulario">
                 <div class="casillaNombre">
-                    <label for="nombre"> Nombre: </label><br>
+                    <label for="nombre"> Nombre: </label>
                     <input type="text" id="nombre" name="nombre" placeholder="Ej: Guadalupe"><br>
-                    <label for="apellido"> Apellido: </label><br>
-                    <input type="text" id="apellido" name="apellido" placeholder="Ej: Fernandez">
+                </div>
+                <div class="casillaApellido">
+                    <label for="apellido"> Apellido: </label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ej: Fernandez"><br>
                 </div>
                 <div class="casillaCorreo">
-                    <label for="correo-e">Correo electrónico: </label><br>
-                    <input type="email" id="correo-e" name="correo-e" placeholder="Ej: guadalupe@gmail.com">
+                    <label for="correo-e">Correo electrónico: </label>
+                    <input type="email" id="correo-e" name="correo-e" placeholder="Ej: guadalupe@gmail.com"><br>
                 </div>
                 <div class="casillaMensaje">
-                    <label for="mensaje">Mensaje: </label><br>
-                    <input type="text" id="mensaje" name="mensaje" placeholder="Escriba un mensaje aqui" size="50">
+                    <label for="mensaje">Mensaje: </label>
+                    <input type="text" id="mensaje" name="mensaje" placeholder="Escriba un mensaje aqui" size="50"><br>
                 </div>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="boton" id="enviar">
 
             </form>
-            <!--Aqui hay que completar forms-->
         </section>
-
     </section>
+
     <footer>
         <hr>
         <div class="iconosFooter">
