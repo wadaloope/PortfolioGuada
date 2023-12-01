@@ -127,3 +127,44 @@ justify-content: space-around;
     color: black;
     border-radius: 5%;
 }
+
+.cita{
+    background-color: rgb(147, 226, 236);
+    font-size: 3em;
+   
+}
+.comillas{
+    width: 90px;
+}
+
+.autorCita{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.iconoProyecto{
+    width:300px;
+    margin-bottom: 5px;
+}
+
+.tarjetaProyecto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:30px 60px;
+    width: 330px;
+    height: 450px;
+    font-size: 1.5em;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.contenedorProyectos{
+    padding:2% 10% 0% ;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+    }
