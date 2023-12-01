@@ -40,17 +40,17 @@ h1 {
     background-color: rgb(255, 254, 192);
 }
 
-.textoEstandar{
+.textoEstandar {
     font-size: 2.5em;
 }
 
-#textoBienvenida{
+#textoBienvenida {
     font-size: 3em;
-    font-weight:bolder;
+    font-weight: bolder;
     color: rgb(167, 115, 156);
 }
 
-.boton{
+.boton {
     font-size: 1.3em;
     font-weight: normal;
     padding: 20px;
@@ -59,8 +59,9 @@ h1 {
     border-radius: 30px;
     color: white;
 }
-.menuLink{
-color: white;
+
+.menuLink {
+    color: white;
 }
 
 
@@ -94,33 +95,33 @@ a {
     align-items: center;
 }
 
-section{
+section {
     padding: 5% 10% 5%;
     background-color: rgb(255, 254, 192);
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 4em;
     font-weight: bolder;
 }
 
-.contenedorConocimientos{
-padding:2% 10% 5% ;
-display: flex;
-flex-wrap: wrap;
-gap: 30px;
-align-items: center;
-justify-content: space-around;
+.contenedorConocimientos {
+    padding: 2% 10% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.iconoTecnologia{
+.iconoTecnologia {
     width: 160px;
     margin-bottom: 5px;
 }
 
-.tarjetaConocimientos{
-    padding:30px 60px;
+.tarjetaConocimientos {
+    padding: 30px 60px;
     width: auto;
     background-color: white;
     font-size: 1.5em;
@@ -128,31 +129,32 @@ justify-content: space-around;
     border-radius: 5%;
 }
 
-.cita{
+.cita {
     background-color: rgb(147, 226, 236);
     font-size: 3em;
-   
+
 }
-.comillas{
+
+.comillas {
     width: 90px;
 }
 
-.autorCita{
+.autorCita {
     font-size: 1.5em;
     font-weight: bolder;
 }
 
-.iconoProyecto{
-    width:300px;
+.iconoProyecto {
+    width: 300px;
     margin-bottom: 5px;
 }
 
-.tarjetaProyecto{
+.tarjetaProyecto {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding:30px 60px;
+    padding: 30px 60px;
     width: 330px;
     height: 450px;
     font-size: 1.5em;
@@ -160,11 +162,64 @@ justify-content: space-around;
     border: 2px solid black;
     border-radius: 5%;
 }
-.contenedorProyectos{
-    padding:2% 10% 0% ;
+
+.contenedorProyectos {
+    padding: 2% 10% 0%;
     display: flex;
     flex-wrap: wrap;
     row-gap: 30px;
     align-items: center;
     justify-content: space-around;
-    }
+}
+
+.redesSoc, .formularioContacto {
+    background-color: rgba(250, 235, 215, 0);
+    padding: 0;
+}
+
+#contacto{
+    background-color: rgb(147, 226, 236);
+}
+
+.iconoRedSocial, .imagenIconoFoot{
+    width: 50px;
+}
+
+.redesSociales{
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+.redSocial{
+    padding-left: 3%;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.enlaceContacto{
+    padding-left: 3%;
+    text-decoration: none;
+    color: black;  
+}
+
+.formularioContacto{
+    padding-top: 5%;
+    width: 100%; 
+    background-color: rgb(255, 254, 192);
+}
+
+.iconosFooter{
+    padding: 1% 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.firma{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 5%;
+}
