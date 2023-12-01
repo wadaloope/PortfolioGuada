@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(147, 226, 236);
+    color: rgb(122, 101, 101);
+}
+
+.presentacion {
+    padding: 10% 10% 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.textoPresentacion {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+#miImagen {
+    max-width: 500px;
+    display: inline-block;
+    border-radius: 5%;
+    background-color: rgb(255, 254, 192);
+}
+
+.textoEstandar{
+    font-size: 2.5em;
+}
+
+#textoBienvenida{
+    font-size: 3em;
+    font-weight:bolder;
+    color: rgb(167, 115, 156);
+}
+
+.boton{
+    font-size: 1.3em;
+    font-weight: normal;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    border-radius: 30px;
+    color: white;
+}
+.menuLink{
+color: white;
+}
+
+
+.barraNav ul li {
+    padding: 0px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.barraNav ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.barraNav {
+    background-color: black;
+    color: white;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
