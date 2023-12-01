@@ -93,3 +93,37 @@ a {
     justify-content: flex-end;
     align-items: center;
 }
+
+section{
+    padding: 5% 10% 5%;
+    background-color: rgb(255, 254, 192);
+    text-align: center;
+}
+
+h2{
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.contenedorConocimientos{
+padding:2% 10% 5% ;
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+align-items: center;
+justify-content: space-around;
+}
+
+.iconoTecnologia{
+    width: 160px;
+    margin-bottom: 5px;
+}
+
+.tarjetaConocimientos{
+    padding:30px 60px;
+    width: auto;
+    background-color: white;
+    font-size: 1.5em;
+    color: black;
+    border-radius: 5%;
+}
