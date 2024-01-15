@@ -40,4 +40,4 @@ https://github.com/wadaloope/PortfolioGuada/assets/139147384/344db3d3-13bd-4aa0-
 - **Ma. Guadalupe Fernandez** - _Trabajo inicial_ - [wadaloope](https://github.com/wadaloope)
 
 
-⌨️ con ❤️ por [Ma. Guadalupe Fernandez](https://github.com/wadaloope) 😊
+⌨️ con ❤️ por [wadaloope](https://github.com/wadaloope) 😊
