@@ -52,13 +52,17 @@ h1 {
 }
 
 .boton {
-    font-size: 1.3em;
+    border: solid 5px blueviolet;
+    font-size: 1.2em;
     font-weight: normal;
-    padding: 20px;
+   /* padding: 2px;*/
     margin-top: 20px;
     background-color: blueviolet;
     border-radius: 30px;
     color: white;
+    text-align: center;
+    line-height: 1.2;
+    overflow: hidden;
 }
 
 #boton:hover {
@@ -88,7 +92,7 @@ h1 {
 
 a {
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 
 .barraNav {
@@ -110,7 +114,7 @@ section {
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 2em;
     font-weight: bolder;
 }
 
@@ -202,12 +206,12 @@ h2 {
 #textoRedes {
     width: 100%;
     text-align: justify;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .iconoRedSocial,
 .imagenIconoFoot {
-    width: 50px;
+    width: 30px;
 }
 
 .redesSociales {
@@ -230,8 +234,9 @@ h2 {
     color: black;
 }
 
-.enlaceContacto:hover {
-    text-shadow: 2px 2px rgba(6, 6, 65, 0.452);
+.redSocial:hover{
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(6, 6, 65, 0.89));
+    filter: drop-shadow(2px 2px 2px rgba(6, 6, 65, 0.89)); 
 }
 
 .formulario {
@@ -393,6 +398,7 @@ footer {
     .contenedorConocimientos,
     .contenedorProyectos {
         padding: 0;
+        flex-direction: column;
     }
 
 }
