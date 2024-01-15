@@ -196,7 +196,7 @@ h2 {
     flex-wrap: wrap;
     row-gap: 30px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .redesSoc,
