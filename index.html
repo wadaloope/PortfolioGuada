@@ -14,7 +14,7 @@
         <div class="presentacion" id="presentacion">
             <img id="miImagen" src="images/freelancer.png" alt="imagen de presentacion">
             <div class="textoPresentacion">
-                <p class="textoEstandar" id="textoBienvenida">Bienvenidos! Mi nombre es</p>
+                <p class="textoEstandar" id="textoBienvenida">Bienvenidos!<br>Mi nombre es</p>
                 <h1>Guadalupe Fernandez</h1>
                 <p class="textoEstandar">Ingeniera, Desarrolladora, Ilustradora</p>
                 <p class="boton" id="boton"><a class="boton" href="#proyectos">LO QUE HAGO</a></p>
@@ -105,8 +105,7 @@
                 </div>
             </a>
             <a class="enlaceProyecto" href="#">
-                <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/Rick-and-Morty.jpg"
-                        alt="imagen laboral 8">
+                <div class="tarjetaProyecto"><img class="iconoProyecto" src="images/Rick-and-Morty.jpg" alt="imagen laboral 8">
                     <p>API RICK & MORTY</p>
             </a>
         </div>
@@ -137,22 +136,21 @@
             <form class="formulario">
                 <div class="casillaNombre">
                     <label for="nombre"> Nombre: </label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Guadalupe"><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Guadalupe" required><br>
                 </div>
                 <div class="casillaApellido">
                     <label for="apellido"> Apellido: </label>
-                    <input type="text" id="apellido" name="apellido" placeholder="Ej: Fernandez"><br>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ej: Fernandez" required><br>
                 </div>
                 <div class="casillaCorreo">
                     <label for="correo-e">Correo electrónico: </label>
-                    <input type="email" id="correo-e" name="correo-e" placeholder="Ej: guadalupe@gmail.com"><br>
+                    <input type="email" id="correo-e" name="correo-e" placeholder="Ej: guadalupe@gmail.com" required><br>
                 </div>
                 <div class="casillaMensaje">
                     <label for="mensaje">Mensaje: </label>
-                    <input type="text" id="mensaje" name="mensaje" placeholder="Escriba un mensaje aqui" size="50"><br>
+                    <input type="text" id="mensaje" name="mensaje" placeholder="Escriba un mensaje aqui" size="50" required><br>
                 </div>
                 <input type="submit" value="Submit" class="boton" id="enviar">
-
             </form>
         </section>
     </section>
